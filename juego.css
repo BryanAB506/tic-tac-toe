@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-image:url(https://image.slidesdocs.com/responsive-images/background/construction-abstract-business-color-block-texture-brown-powerpoint-background_1d7373d276__960_540.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titu{
+    text-align: center;
+    background-color: rgba(173, 121, 84, 0.792);
+    color: rgb(255, 240, 240);
+    width: 75%;
+    height: 50px;
+    margin-left: 150px;
+    line-height:50px;
+    border-radius: 10px;
+}
+
+.titu h2{
+    font-size: 1.7em;
+    border: 1px solid white;
+    background-color: rgba(134, 99, 74, 0.788);
+    align-content: center;
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedorPadre{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    color: rgb(255, 246, 240);
+    background-color: rgba(151, 146, 146, 0.151);
+    font-size: 7em;
+    text-align: center;
+}
+
+
+.game{
+    border: 8px solid rgba(189, 170, 79, 0.701);
+    width: 16vw;
+    height: 130px;
+    
+}
+
+
+
+.boton{
+    margin-top: 20px;
+    margin: 40px auto;
+    display: block;
+    padding: 8px;
+    background-color: chocolate;
+
+    color: aliceblue;
+    font-size: 1.1em;
+}
+
+
+.boton:hover{
+    cursor: pointer;
+}
+
+
+.ganadorCont{
+    margin-left: 650px;
+    color: aliceblue;
+    font-size: 1.6em;
+    height: 60px;
+    width: 65px;
+
+}
+
+
+.contadores1{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 1.7em;
+}
+
+
+#marcador{
+    text-align: center;
+}
+
+#Player_X{
+    font-family: ;
+}
